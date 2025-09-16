@@ -71,7 +71,7 @@ header {
     right: 0;
     z-index: 99;
     border-bottom: 0.1px solid gray;
-    background-color: #85FFE0;
+    background-color: #570000;
 }
 
 header section {
@@ -85,7 +85,7 @@ nav a {
     margin: 0 1rem;
     font-size: 1.2rem;
     font-weight: 700;
-    color: black;
+    color: #ADADAD;
 }
 
 nav a:hover {
@@ -107,17 +107,26 @@ section.sobre h2.titulo span {
     text-transform: uppercase
 }
 
+section.sobre div.box:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 section.sobre div.box {
     width: 1250px;
+    height: 402px;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: #4A4949;
     gap: 1.8rem;
+    border-radius: 2%;
+    transition: background-color 0.5s ease, transform 0.5s ease
 }
 
 section.sobre div.container-img img {
-    height: 600px;
-    width: 700px;
+    height: auto;
+    width: 600px;
+    border-radius: 2%;
 }
 
 section.sobre div.box div.contentp {
@@ -125,12 +134,88 @@ section.sobre div.box div.contentp {
 }
 
 section.sobre div.box div.contentp h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
 }
 
 section.sobre div.box div.contentp p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    color: white;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+section.sobre2 div.box2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+section.sobre2 div.box2 {
+    width: 1250px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1.8rem;
+    border-radius: 2%;
+    transition: background-color 0.5s ease, transform 0.5s ease
+}
+
+section.sobre2 div.container-img2 img {
+    height: auto;
+    width: auto;
+    border-radius: 2%;
+}
+
+section.sobre2 div.box div.contentp2 {
+    padding: 2rem;
+}
+
+section.sobre2 div.box2 div.contentp2 h3 {
+    font-size: 2.5rem;
+    color: #4A4949;
+}
+
+section.sobre2 div.box2 div.contentp2 p {
+    font-size: 1.2rem;
+    color: #4A4949;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+section.sobre3 div.box3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+section.sobre3 div.box3 {
+    width: 1250px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    gap: 1.8rem;
+    border-radius: 2%;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+section.sobre3 div.container-img3 img {
+    height: auto;
+    width: auto;
+    border-radius: 2%;
+}
+
+section.sobre3 div.box3 div.contentp3 {
+    padding: 2rem;
+}
+
+section.sobre3 div.box3 div.contentp3 h3 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+section.sobre3 div.box3 div.contentp3 p {
+    font-size: 1.2rem;
     color: white;
     padding: 1rem 0;
     line-height: 1.8;

@@ -244,23 +244,6 @@ section.trailers div.main-scroll-div {
 
 }
 
-section.trailers div.scroll-button {
-
-    background: blue;
-    border: none;
-    color: white;
-    font-size: 2rem;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 10;
-    transition: background-color 0.3s;
-
-}
-
-section.trailers div.scroll-button:hover {
-    background:blue;
-}
-
 section.trailers div.cover {
     position: relative;
     width: 100%;
